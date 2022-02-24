@@ -20,9 +20,14 @@
             href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@400;700&display=swap"
             rel="stylesheet">
 
+        <!-- Icones do projeto -->
         <link rel="shortcut icon"
             href="https://iconarchive.com/download/i107345/google/noto-emoji-animals-nature/22235-pig-face.ico"
             type="image/x-icon">
+
+        <link rel="apple-touch-icon"
+            href="https://iconarchive.com/download/i107345/google/noto-emoji-animals-nature/22235-pig-face.ico">
+
     </head>
 
     <body id="#home">
@@ -68,7 +73,7 @@
             </div>
         </header>
         <main class="l-main">
-            <div class="c-about">
+            <section class="c-about" id="about">
                 <div class="c-about__left">
                     <h2 class="l-main__headline">Quem somos?</h2>
                     <article class="c-about__text">
@@ -94,13 +99,84 @@
                         <img src="" alt="Cofrinho, porco, dinheiro, pig, money">
                     </div>
                 </div>
-            </div>
-            <div class="c-contact">
-
-            </div>
+            </section>
+            <section class="c-contact" id="contact">
+                <div class="c-contact__left">
+                    <h2 class="l-main__headline">Entre em contato</h2>
+                    <form action="" class="c-contact__form">
+                        <div class="c-input">
+                            <label for="nome" title="Nome do cliente" class="c-input__label">Nome</label>
+                            <input type="text" class="c-input__item" autocomplete="name" inputmode="text" id="nome"
+                                maxlength="70" autocapitalize="true">
+                        </div>
+                        <div class="c-input">
+                            <label for="email" title="E-mail do usuario" class="c-input__label">E-mail</label>
+                            <input type="email" class="c-input__item" autocomplete="email" inputmode="email" id="email"
+                                maxlength="70">
+                        </div>
+                        <div class="c-input">
+                            <label for="message" title="Mensagem a ser enviada" class="c-input__label">Mensagem</label>
+                            <textarea class="c-input__item textarea" inputmode="text" id="message" rows="4"></textarea tarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="c-contact__right">
+                    <div class="c-contact__box-address">
+                        <h3 class="c-contact__headline">Onde nos encontrar?</h3>
+                        <address>
+                            Av. Joaquina Ramos 989 - Vila Guilherme - São Paulo - SP
+                        </address>
+                    </div>
+                    <div class="c-contact__maps">
+                        <img src=""
+                            alt="Vila Guilherme, Mapa, maps, localização, location, Vila, Guilherme, Local, Porco, Av.
+                            Joaquina Ramos 989,Av. Joaquina Ramos, São Paulo, SP, Porcos, Suinos, Temperatura, Controle, ambiente, suinocultura">
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="l-footer">
-
+            <div class="l-footer__left">
+                <h2 class="l-footer__headline">Acesso rápido</h2>
+                <nav class="l-footer__nav">
+                    <ul class="l-footer__menu">
+                        <li class="l-footer__link">
+                            <a href="#home" class="l-footer__item">Inicio</a>
+                        </li>
+                        <li class="l-footer__link">
+                            <a href="#contact" class="l-footer__item">Contato</a>
+                        </li>
+                        <li class="l-footer__link">
+                            <a href="#about" class="l-footer__item">Sobre</a>
+                        </li>
+                        <li class="l-footer__link">
+                            <a href="#product" class="l-footer__item">Produtos</a>
+                        </li>
+                        <li class="l-footer__link">
+                            <a href="#signin" class="l-footer__item">Entrar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="l-footer__center">
+                <div class="superior">
+                    <a href="#home" class="c-logo__item lg" title="LOGOTIPO">D</a>
+                    <h3 class="l-footer__headline light">Viemos ajudar</h3>
+                </div>
+                <span>
+                    Copyright &copy; 2022 Empresa Temperatura - Todos os direitos reservados
+                </span>
+            </div>
+            <div class="l-footer__right">
+                <h2 class="l-footer__headline">Onde estamos?</h2>
+                <ul class="l-footer__more-locations">
+                    <address>
+                        <li class="l-footer__locations">Av. Joaquina Ramos 989 - Vila Guilherme - São Paulo - SP</li>
+                        <li class="l-footer__locations">R. Virgínia Ferni, 400 - Itaquera, São Paulo - SP, 08253-000</li>
+                        <li class="l-footer__locations">R. Prof. Luis Eulálio de Bueno Vidigal, 175 - Centro, Osasco - SP, 06093-085</li>
+                    </address>
+                </ul>
+            </div>
         </footer>
 
     </body>
